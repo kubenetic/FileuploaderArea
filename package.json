@@ -1,0 +1,30 @@
+{
+  "name": "fileuploadarea",
+  "version": "",
+  "description": "Example project to demonstrate how to build a drag'n'drop component to handle file uploads",
+  "dependencies": {
+    "alpinejs": "^3.14.9"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "esbuild": "^0.25.8",
+    "esbuild-plugin-tsc": "^0.5.0",
+    "esbuild-sass-plugin": "^3.3.1"
+  },
+  "homepage": "https://github.com/kubenetic/FileuploadArea#readme",
+  "bugs": {
+    "url": "https://github.com/kubenetic/FileuploadArea/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubenetic/FileuploadArea.git"
+  },
+  "license": "MIT",
+  "author": "kubenetic",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "build:watch": "node esbuild.config.js --watch"
+  }
+}
